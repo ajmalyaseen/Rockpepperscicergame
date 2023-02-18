@@ -58,8 +58,8 @@ const round = document.querySelector(".round");
        (computerChoice == "R" && myChoice == "S") || 
        (computerChoice == "P" && myChoice == "R") || 
        (computerChoice == "S" && myChoice == "P") 
-     ) { 
-       computerCurrentScore++3; 
+     ) { 
+       computerCurrentScore++; 
        computerScore.innerText = computerCurrentScore; 
        result.innerText = "Computer WIN"; 
        result.style.color = "red"; 
@@ -69,7 +69,7 @@ const round = document.querySelector(".round");
        (myChoice == "P" && computerChoice == "R") || 
        (myChoice == "S" && computerChoice == "P") 
      ) { 
-       myCurrentScore++3; 
+       myCurrentScore++; 
        myScore.innerText = myCurrentScore; 
        result.innerText = "YOU WIN"; 
        result.style.color = "green"; 
